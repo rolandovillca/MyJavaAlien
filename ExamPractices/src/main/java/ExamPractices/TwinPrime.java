@@ -15,6 +15,6 @@ class TwinPrime {
 	}
 
 	static boolean isTwinPrime(int n) {
-
+		return true;
 	}
 }
