@@ -1,3 +1,12 @@
+/*
+This is a Java Program to Compute the Sum of Digits in a given Integer.
+
+Enter any integer number as input.
+
+After that we use modulus and division operation respectively to find the 
+sum of digits of number as output.
+*/
+
 class SumDigits {
 	public static void main(String[] args) {
 		System.out.println(sumDigits(-110));
