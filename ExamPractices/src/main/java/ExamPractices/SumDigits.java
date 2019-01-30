@@ -7,6 +7,8 @@ After that we use modulus and division operation respectively to find the
 sum of digits of number as output.
 */
 
+package ExamPractices;
+
 class SumDigits {
 	public static void main(String[] args) {
 		System.out.println(sumDigits(-110));

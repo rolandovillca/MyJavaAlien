@@ -1,3 +1,5 @@
+package ExamPractices;
+
 public class FactorialPrime {
 	public static void main(String[] args) {
 		System.out.println(isFactorialPrime(2));

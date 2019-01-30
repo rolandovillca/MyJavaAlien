@@ -1,3 +1,5 @@
+package ExamPractices;
+
 class FibonacciNumber {
 	public static void main(String[] args) {
 		//getFibonacci(10);

@@ -10,3 +10,10 @@ Examples:
 {1,1,1,1,1,2,1,1,1} returns 3 because 1+2 or 2+1 is the max sum of adjacent pairs
 */
 
+package ExamPractices;
+
+class LargetAdjacentSumOfArray {
+	public static void main(String[] args) {
+		System.out.println("Initial method");
+	}
+}

@@ -1,3 +1,5 @@
+package ExamPractices;
+
 class TripleArray {
 	public static void main(String[] args) {
         System.out.println(isTriple(new int[]{3, 1, 2, 1, 3, 1, 3, 2, 2}));

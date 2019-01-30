@@ -8,11 +8,11 @@ import static org.junit.Assert.*;
 
 class LargetAdjacentSumOfArrayTest {
 
-	@Test
-	public void multiplicationOfZeroIntegersShouldReturnZero() {
-		assertEquals(0, 0);
-		assertEquals(true, true);
-		assertEquals(100, 100);
-	}
+	// @Test
+	// public void multiplicationOfZeroIntegersShouldReturnZero() {
+	// 	assertEquals(0, 0);
+	// 	assertEquals(true, true);
+	// 	assertEquals(100, 100);
+	// }
 
 }

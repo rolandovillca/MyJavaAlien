@@ -11,6 +11,9 @@ if its array argument is a 235 array, otherwise it returns 0.
 
 NOTE: The function signature is intis235Array(int[ ] a)
 */
+
+package ExamPractices;
+
 class Array235 {
 	public static void main(String[] args) {
 		System.out.println(is235Array(new int[]{2}));

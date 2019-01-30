@@ -1,3 +1,5 @@
+package ExamPractices;
+
 class Array121 {
 	public static void main(String[] args) {
         System.out.println(is121Array(new int[]{1, 2, 1}));

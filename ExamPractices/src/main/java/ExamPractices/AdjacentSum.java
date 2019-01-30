@@ -1,3 +1,5 @@
+package ExamPractices;
+
 public class AdjacentSum {
 	public static void main(String[] args) {
 		// System.out.println(largestAdjacentSum(new int[]{1}));
