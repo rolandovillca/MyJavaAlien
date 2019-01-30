@@ -1,5 +1,5 @@
 /*
-An array is defined to be a 235 array 
+An array is defined to be a 235 array:
 if the number of elements divisible by 2 
 plus the number of elements divisible by 3 
 plus the number of elements divisible by 5 
