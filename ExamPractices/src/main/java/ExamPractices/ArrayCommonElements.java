@@ -1,6 +1,6 @@
 package ExamPractices;
 
-public class CommonElements {
+public class ArrayCommonElements {
 
     public static void main(String a[]){
         

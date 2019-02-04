@@ -9,7 +9,7 @@ is equal to the number of elements of the array.
 Write a method named is235Array that returns 1 
 if its array argument is a 235 array, otherwise it returns 0.
 
-NOTE: The function signature is intis235Array(int[ ] a)
+NOTE: The function signature is int is235Array(int[] a)
 */
 
 package ExamPractices;
