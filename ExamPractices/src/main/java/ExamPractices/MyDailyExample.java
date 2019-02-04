@@ -16,14 +16,12 @@ class MyDailyExample {
 
 	static int is121Array(int[] a) {
 		if (a.length < 3) return 0;
+		if (a[0] != 1 || a[a.length-1] != 1) return 0;
 		int i, j;
 
 		for (i=0, j=a.length; i<a.length && i<j; i++, j--) {
 			if (a[i] != 1 && a[j] !=1) {
 				break;
-			}
-			if (i == a.length-1) {
-				return 0;
 			}
 		}
 
