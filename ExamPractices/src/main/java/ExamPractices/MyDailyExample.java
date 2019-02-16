@@ -14,15 +14,16 @@ class MyDailyExample {
         System.out.println(is121Array(new int[]{2, 2, 2}));
 	}
 
-	static is121Array(int[] a) {
-		if (a.length < 3) return 0;
-		if (a[0] != 1 || a[a.length-1] != 1) return 0;
-
+	static int is121Array(int[] a) {
+		if (a.length < 2) return 0;
 		int i, j;
-
-		for (i=0; i<a.length-1 && i<=j; i++, j--) {
-			
+		for (i=0, j=a.length; i<a.length && j>0 && i<j; i++, j--) {
+			if (a[i] != 1 || a[j] != 1) {
+                if (a[i] != 2 || a[j] != 2) {
+					break;
+				}
+            }
 		}
-		return 0
+		return 0;
 	}
 } 
