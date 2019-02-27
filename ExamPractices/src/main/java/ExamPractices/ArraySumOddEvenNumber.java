@@ -22,18 +22,18 @@ package ExamPractices;
 
 class ArraySumOddEvenNumber {
 	public static void main(String[] args) {
-		System.out.println(f(new int[] {1}));
-		System.out.println(f(new int[] {1, 2}));
-		System.out.println(f(new int[] {1, 2, 3}));
-		System.out.println(f(new int[] {1, 2, 3, 4}));
-		System.out.println(f(new int[] {3, 3, 4, 4}));
-		System.out.println(f(new int[] {3, 2, 3, 4}));
-		System.out.println(f(new int[] {4, 1, 2, 3}));
-		System.out.println(f(new int[] {1, 1}));
-		System.out.println(f(new int[] {}));
+		System.out.println(fun(new int[] {1}));
+		System.out.println(fun(new int[] {1, 2}));
+		System.out.println(fun(new int[] {1, 2, 3}));
+		System.out.println(fun(new int[] {1, 2, 3, 4}));
+		System.out.println(fun(new int[] {3, 3, 4, 4}));
+		System.out.println(fun(new int[] {3, 2, 3, 4}));
+		System.out.println(fun(new int[] {4, 1, 2, 3}));
+		System.out.println(fun(new int[] {1, 1}));
+		System.out.println(fun(new int[] {}));
 	}
 
-	static int f(int[] arr) {
+	static int fun(int[] arr) {
 		int evens = 0;
 		int odds = 0;
 		for(int i=0; i<arr.length; i++) {
