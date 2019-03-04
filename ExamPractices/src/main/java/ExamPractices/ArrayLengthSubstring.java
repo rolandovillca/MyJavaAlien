@@ -36,7 +36,7 @@ class ArrayLengthSubstring {
 		System.out.println(fun(new char[] {'a', 'b', 'c'}, 0, 3));
 		System.out.println(fun(new char[] {'a', 'b', 'c'}, 0, 2));
 		System.out.println(fun(new char[] {'a', 'b', 'c'}, 0, 1));
-		System.out.println(fun(new char[] {'a', 'b', 'c'}, 1, 3));
+		System.out.println(fun(new char[] {'a', 'b', 'c'}, 1, 3)); // X
 		System.out.println(fun(new char[] {'a', 'b', 'c'}, 1, 2));
 		System.out.println(fun(new char[] {'a', 'b', 'c'}, 1, 1));
 		System.out.println(fun(new char[] {'a', 'b', 'c'}, 2, 2));
@@ -49,18 +49,17 @@ class ArrayLengthSubstring {
 	}
 
 	static String fun(char[] a, int start, int len) {
-		System.out.println("aaaaaaaaaaa a.length: " + a.length);
-		System.out.println("bbbbbbbbbbbbbbbb len: " + len);
-
 		if (len > a.length) return null;
 		if (start < 0 || len < 0) return null;
+		if (len > ((a.length) - start)) return null;
 
 		char[] arr = new char[len];
 
-		for (int i=start; i<len; i++) {
-			arr[i] = a[i];
+		for (int i=0; i<len; i++) {
+			arr[i] = a[start];
+			start = start + 1;
 		}
 
-		return (arr.length > 0) ? Arrays.toString(arr) : "Null";
+		return (arr.length >= 0) ? Arrays.toString(arr) : "Null";
 	}
 }
