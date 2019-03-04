@@ -8,7 +8,7 @@ starting with the start character of the input array.
 The function should do error checking on the start position and the length
 and return null if the either value is not legal.
 
-The function signature is: char[ ] f(char[ ] a, int start, int len)
+The function signature is: char[ ] fun(char[ ] a, int start, int len)
 
 Example:
 {'a', 'b', 'c'}, 0, 4   -> null
