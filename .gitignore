@@ -6,3 +6,10 @@
 
 # Ignore Gradle build output directory
 build
+
+# Eclipse and Visual Studio Code IDE
+.classpath
+.project
+.settings
+bin
+.metadata
