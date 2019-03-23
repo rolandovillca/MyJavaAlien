@@ -1,4 +1,4 @@
-package ExamPractices;
+package DataStructureAlgorithms;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
