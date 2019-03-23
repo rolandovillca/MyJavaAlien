@@ -18,7 +18,7 @@ int is121Array(int a[], int len)
 where len is the number of elements in the array a
 */
 
-package ExamPractices;
+package DataStructureAlgorithms;
 
 class Array121 {
 	public static void main(String[] args) {

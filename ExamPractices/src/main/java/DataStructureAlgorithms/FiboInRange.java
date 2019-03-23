@@ -1,4 +1,4 @@
-package ExamPractices;
+package DataStructureAlgorithms;
 
 class FiboInRange {
 	public static void main(String[] args) {

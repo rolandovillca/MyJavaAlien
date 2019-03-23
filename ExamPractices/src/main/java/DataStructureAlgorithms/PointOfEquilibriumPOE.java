@@ -18,7 +18,7 @@ if input arrays are:         return:
 {1, 2, 10, 3, 4}             -> -1 Reason: No POE.
 */
 
-package ExamPractices;
+package DataStructureAlgorithms;
 
 class PointOfEquilibriumPOE {
 	public static void main(String[] args) {

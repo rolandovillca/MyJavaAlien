@@ -15,7 +15,7 @@ Example:
 {10}	        -> 1 (the middle element 10 is strictly less than all other elements)
 */
 
-package ExamPractices;
+package DataStructureAlgorithms;
 
 class ArrayOddNumberCentered {
 	public static void main(String[] args) {

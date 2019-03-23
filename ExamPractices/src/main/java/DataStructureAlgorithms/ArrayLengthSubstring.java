@@ -26,7 +26,7 @@ Example:
 {'a', 'b', 'c'}, -1, -2 -> null
 {}, 0, 1                -> null
 */
-package ExamPractices;
+package DataStructureAlgorithms;
 
 import java.util.*;
 

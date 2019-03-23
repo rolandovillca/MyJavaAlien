@@ -12,7 +12,7 @@ if its array argument is a 235 array, otherwise it returns 0.
 NOTE: The function signature is int is235Array(int[] a)
 */
 
-package ExamPractices;
+package DataStructureAlgorithms;
 
 class Array235 {
 	public static void main(String[] args) {

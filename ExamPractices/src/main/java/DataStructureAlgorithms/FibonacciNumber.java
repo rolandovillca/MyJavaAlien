@@ -1,4 +1,4 @@
-package ExamPractices;
+package DataStructureAlgorithms;
 
 class FibonacciNumber {
 	public static void main(String[] args) {

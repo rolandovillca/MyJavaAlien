@@ -10,7 +10,7 @@ if a is               return
 {1,1,1,1,1,2,1,1,1}   -> 3 because 1+2 or 2+1 is the max sum of adjacent pairs
 */
 
-package ExamPractices;
+package DataStructureAlgorithms;
 
 public class AdjacentSum {
 	public static void main(String[] args) {

@@ -18,7 +18,7 @@ Example:
 */
 
 
-package ExamPractices;
+package DataStructureAlgorithms;
 
 class ArraySumOddEvenNumber {
 	public static void main(String[] args) {

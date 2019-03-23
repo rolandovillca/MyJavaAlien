@@ -1,4 +1,4 @@
-package ExamPractices;
+package DataStructureAlgorithms;
 
 public class FactorialPrime {
 	public static void main(String[] args) {

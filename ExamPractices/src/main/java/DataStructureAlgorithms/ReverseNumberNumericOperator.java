@@ -15,7 +15,7 @@ Example:
 -12345  -> -54321
 */
 
-package ExamPractices;
+package DataStructureAlgorithms;
 
 public class ReverseNumberNumericOperator {
 	public static void main(String[] args) {

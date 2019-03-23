@@ -1,4 +1,4 @@
-package ExamPractices;
+package DataStructureAlgorithms;
 
 public class HappyNumber {
 

@@ -24,7 +24,7 @@ null, {}                   -> null
 null, null                 -> null
 */
 
-package ExamPractices;
+package DataStructureAlgorithms;
 import java.util.*;
 
 public class CommonElementsTwoArrays {

@@ -10,7 +10,7 @@ The starting triangular numbers are:
 1, 3(1+2), 6(1+2+3), 10(1+2+3+4)
 */
 
-package ExamPractices;
+package DataStructureAlgorithms;
 
 class TriangularNumber {
 	public static void main(String[] args) {

@@ -9,7 +9,7 @@ Example:
 and the compose number is 30.
 */
 
-package ExamPractices;
+package DataStructureAlgorithms;
 
 class TwinPrime {
 	public static void main(String[] args) {
