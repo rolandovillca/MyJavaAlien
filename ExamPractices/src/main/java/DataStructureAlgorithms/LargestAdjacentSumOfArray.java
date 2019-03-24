@@ -22,6 +22,8 @@ class LargetAdjacentSumOfArray {
 
 	static int sum(int[] arr) {
 		if (arr.length < 2) return 0;
+		if (arr.length == 1) return arr[0];
+
 		int adjacentSum = arr[0] + arr[1];
 		int tmp;
 
