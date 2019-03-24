@@ -12,7 +12,7 @@
 
 package DataStructureAlgorithms;
 
-class LargetAdjacentSumOfArray {
+class ArrayLargetAdjacentSum {
 	public static void main(String[] args) {
 		System.out.println("7 = " + sum(new int[]{1, 2, 3, 4}));
 		System.out.println("6 = " + sum(new int[]{18, -12, 9, -10}));

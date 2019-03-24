@@ -18,39 +18,39 @@ import org.junit.Before;
 
 import static org.junit.Assert.*;
 
-public class LargetAdjacentSumOfArrayTest {
+public class ArrayLargetAdjacentSumTest {
 
 	@Before
 	public void before() throws Exception {
-		System.out.println("Setting up - LargetAdjacentSumOfArrayTest");
+		System.out.println("Setting up - ArrayLargetAdjacentSumTest");
 	}
 
 	@After
 	public void after() throws Exception {
-		System.out.println("Setting up - LargetAdjacentSumOfArrayTest");
+		System.out.println("Setting up - Test");
 	}
 
 	@Test
 	public void sum1() {
 		int[] arr = new int[]{1, 2, 3, 4};
-		assertEquals(7, LargetAdjacentSumOfArray.sum(arr));
+		assertEquals(7, ArrayLargetAdjacentSum.sum(arr));
 	}
 
 	@Test
 	public void sum2() {
 		int[] arr = new int[]{18, -12, 9, -10};
-		assertEquals(6, LargetAdjacentSumOfArray.sum(arr));
+		assertEquals(6, ArrayLargetAdjacentSum.sum(arr));
 	}
 
 	@Test
 	public void sum3() {
 		int[] arr = new int[]{1,1,1,1,1,1,1,1,1};
-		assertEquals(2, LargetAdjacentSumOfArray.sum(arr));
+		assertEquals(2, ArrayLargetAdjacentSum.sum(arr));
 	}
 
 	@Test
 	public void sum4() {
 		int[] arr = new int[]{1,1,1,1,1,2,1,1,1};
-		assertEquals(3, LargetAdjacentSumOfArray.sum(arr));
+		assertEquals(3, ArrayLargetAdjacentSum.sum(arr));
 	}
 }
