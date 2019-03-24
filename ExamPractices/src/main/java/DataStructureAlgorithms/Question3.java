@@ -1,3 +1,14 @@
+/**
+ * A number we n may call Happy Prime if "n is called prime happy
+ * if there is at least one prime less than n and the sum of all
+ * primes less than n is evenly divisible by n."
+ * 
+ * For example:
+ * 
+ * 25 is Happy Prime because 2, 3, 5, 7, 11, 13, 17, 19, 23
+ * are the primes less than 25, their sum is 100 and 25 evenly divides 100
+ */
+
 package DataStructureAlgorithms;
 
 public class Question3 {

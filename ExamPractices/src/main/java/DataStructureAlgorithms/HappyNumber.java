@@ -1,3 +1,27 @@
+/*
+A number is called happy if it leads to 1 after a sequence of steps where in 
+each step number is replaced by sum of squares of its digit that is if we start 
+with Happy Number and keep replacing it with digits square sum, we reach 1.
+
+The first few unhappy numbers are: 2, 3, 4, 5, 6, 8, 9, 11, 12, 14, 15, 16, 17, 18, 20.
+
+Examples :
+
+Input: n = 19
+Output: True
+
+19 is Happy Number because:
+1^2 + 9^2 = 82
+8^2 + 2^2 = 68
+6^2 + 8^2 = 100
+1^2 + 0^2 + 0^2 = 1
+
+As we reached to 1, 19 is a Happy Number.
+
+Input: n = 20
+Output: False
+*/
+
 package DataStructureAlgorithms;
 
 public class HappyNumber {
