@@ -1,3 +1,15 @@
+/**
+ * Rotate the given Array to n-times to right and left side.
+ * 
+ * ROTATE RIGHT SIDE:
+ * Given Array [1, 2, 3, 4, 5, 6, 7] and 3 times to rotate to right side.
+ * Then, the result will be [5, 6, 7, 1, 2, 3, 4]
+ * 
+ * ROTATE LEFT SIDE:
+ * Given Array [1, 2, 3, 4, 5, 6, 7] and 3 times to rotate to left side.
+ * Then, the result will be [4, 5, 6, 7, 1, 2, 3]
+ */
+
 package DataStructureAlgorithms;
 
 import static org.junit.Assert.assertArrayEquals;
