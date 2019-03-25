@@ -29,10 +29,23 @@ dependencies {
     compile group: 'org.xerial', name: 'sqlite-jdbc', version: '3.23.1'
 }
 
-// test {
-//     useJUnit()
-//     maxHeapSize = '1G'
-// }
+test {
+    // useJUnit()
+    // maxHeapSize = '1G'
+    testLogging {
+        // events "passed", "skipped", "started", "failed"
+        events "passed", "skipped", "failed"
+    }
+}
+
+// Run multiple tasks: clean task first, after test task.
+task cleanTest {
+    dependsOn 'clean'
+    dependsOn 'build'
+    // dependsOn 'publish'
+    tasks.findByName('build').mustRunAfter 'clean'
+    // tasks.findByName('publish').mustRunAfter 'build'
+}
 
 // sourceSets {
 //     main {
@@ -46,4 +59,5 @@ dependencies {
 // }
 
 // Define the main class for the application
-mainClassName = 'DataStructureAlgorithms.HappyNumber'
+mainClassName = 'DataStructureAlgorithms.ArrayRotation'
+

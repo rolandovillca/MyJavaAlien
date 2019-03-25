@@ -20,14 +20,14 @@ import static org.junit.Assert.*;
 
 public class ArrayLargetAdjacentSumTest {
 
-	@Before
+	@Before // setup()
 	public void before() throws Exception {
-		System.out.println("Setting up - ArrayLargetAdjacentSumTest");
+		System.out.println("Setting Before - ArrayLargetAdjacentSumTest");
 	}
 
-	@After
+	@After // tearDown()
 	public void after() throws Exception {
-		System.out.println("Setting up - Test");
+		System.out.println("Setting After - ArrayLargetAdjacentSumTest");
 	}
 
 	@Test
