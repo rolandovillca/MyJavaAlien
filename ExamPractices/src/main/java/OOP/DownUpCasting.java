@@ -2,7 +2,7 @@ package OOP;
 
 class DownUpCasting {
 	public static void main(String[] args) {
-		// Polymorfism:
+		// Polymorfism examples:
 		Animal animal = new Cat("Missifuss");
 		System.out.println(animal.speak());
 
@@ -12,6 +12,7 @@ class DownUpCasting {
 		// Downcasting examples:
 		Animal a2 = new Cat("Cat2");
 		Cat cat2 = (Cat)a2;
+		System.out.println(cat2.speak());
 
 		Animal a3 = new Dog("Dog3");
 		Dog dog3 = (Dog)a3;
@@ -21,10 +22,11 @@ class DownUpCasting {
 		System.out.println(a4.speak());
 		Cat c4 = (Cat)a4;
 		System.out.println(c4.speak());
+
 		RedCat rc4 = (RedCat)a4;
 		System.out.println(rc4.speak());
-		a4 = (Animal)rc4;
-		System.out.println(a4.speak());
+		a4 = (Animal)rc4; //Interesting, it is upcasting.
+		System.out.println("aa:"+a4.speak());
 	}
 }
 
